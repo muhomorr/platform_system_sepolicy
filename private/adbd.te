@@ -85,6 +85,7 @@ set_prop(adbd, shell_prop)
 set_prop(adbd, powerctl_prop)
 get_prop(adbd, ffs_config_prop)
 set_prop(adbd, ffs_control_prop)
+get_prop(adbd, adbd_skip_auth_prop)
 set_prop(adbd, adbd_tradeinmode_prop)
 
 # Allow adbd start/stop mdnsd via ctl.start

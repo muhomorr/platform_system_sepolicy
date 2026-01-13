@@ -1226,6 +1226,8 @@ set_prop(system_server, system_adbd_prop)
 # Set service.adbd.tradeinmode from ITradeInService.
 set_prop(system_server, adbd_tradeinmode_prop)
 
+set_prop(system_server, adbd_skip_auth_prop)
+
 # Allow invoking tools like "timeout"
 allow system_server toolbox_exec:file rx_file_perms;
 
